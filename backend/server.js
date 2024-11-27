@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const userRoutes = require("./routes/userRoutes");
+const roleRoutes = require("./routes/roleRoutes");
 
 const app = express();
 app.use(cors());
@@ -16,6 +17,7 @@ mongoose
   .catch((error) => console.log("Error connecting to MongoDB:", error));
 
 app.use("/api/users", userRoutes);
+app.use("/api/roles", roleRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
