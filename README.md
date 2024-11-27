@@ -6,13 +6,27 @@ This project is an **Admin Dashboard** designed to provide a secure and user-fri
 
 ## **Table of Contents**
 
-1. [Project Overview](#project-overview)  
-2. [Features](#features)  
-3. [Tech Stack](#tech-stack)  
-4. [Setup Instructions](#setup-instructions)  
-5. [Usage](#usage)  
-6. [Screenshots](#screenshots)  
-7. [Future Enhancements](#future-enhancements)  
+1. [User Guide](#user-guide)  
+2. [Project Overview](#project-overview)  
+3. [Features](#features)  
+4. [Tech Stack](#tech-stack)  
+5. [Setup Instructions](#setup-instructions)  
+6. [Usage](#usage)  
+7. [Screenshots](#screenshots)  
+8. [Future Enhancements](#future-enhancements)  
+
+---
+
+## **User Guide**
+
+To get started with the Admin Dashboard, follow these steps:
+
+1. **Access the Web App**  
+   Visit the main application at: [Admin Dashboard] (https://admin-sphere-prod.vercel.app/)
+
+2. **Login Credentials**  
+   Use the provided credentials to log in and explore the features:
+   - **Email:** test@gmail.com  
 
 ---
 
@@ -42,16 +56,16 @@ The Admin Dashboard offers comprehensive user, role, and permission management c
 ### 4. **Responsive UI**
 - Designed to work seamlessly across devices and screen sizes.
 - Intuitive navigation and interactive elements for a better user experience.
-- Fully Responsive for all kinds of screen width.
 
 ---
 
 ## **Tech Stack**
 
-- **Frontend:** React.js, Material-UI (TailwindCSS for styling)
+- **Frontend:** React.js, Material-UI (or TailwindCSS for styling)
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB 
-- **Other Tools:** Axios
+- **Database:** MongoDB (or SQL-based database)
+- **Authentication:** JWT (JSON Web Tokens)
+- **Other Tools:** Axios, Redux (if state management is used)
 
 ---
 
@@ -63,8 +77,3 @@ Follow these steps to set up the project locally:
 1. [Node.js](https://nodejs.org/) installed.
 2. [MongoDB](https://www.mongodb.com/)
 
-### **Steps**
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/GMAN-897/dashboard.git
-   cd admin-dashboard
