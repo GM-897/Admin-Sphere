@@ -24,10 +24,10 @@ const createUser = async (req, res) => {
 
 const updateUser = async (req, res) => {
   try {
-    const {name, email,role, status} = req.body;
+    const {role, status} = req.body;
     const updatedUser = await User.findByIdAndUpdate(
       req.params.id,
-      {name, email,role, status},
+      {role, status},
       { new: true }
     );
     res.json({ message: "User updated successfully", user: updatedUser });
