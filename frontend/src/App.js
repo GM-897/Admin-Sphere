@@ -10,13 +10,13 @@ import "./styles/App.css";
 const App = () => {
   return (
     <div>
-      {/* <nav className="navbar">
+      <nav className="navbar">
         <Link to="/">Dashboard</Link>
         <Link to="/users">Current Users</Link>
         <Link to="/roles">Role Management</Link>
         <Link to="/profile">My Profile</Link>
         <Link to="/add-user">Add New User</Link>
-      </nav> */}
+      </nav>
       <div className="content">
         <Routes>
           <Route path="/" element={<Dashboard />} />
