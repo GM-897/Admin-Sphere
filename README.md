@@ -42,6 +42,7 @@ The Admin Dashboard offers comprehensive user, role, and permission management c
 ### 4. **Responsive UI**
 - Designed to work seamlessly across devices and screen sizes.
 - Intuitive navigation and interactive elements for a better user experience.
+- Fully Responsive for all kinds of screen width.
 
 ---
 
@@ -50,7 +51,7 @@ The Admin Dashboard offers comprehensive user, role, and permission management c
 - **Frontend:** React.js, Material-UI (TailwindCSS for styling)
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB 
-- **Other Tools:** Axios, Redux (if state management is used)
+- **Other Tools:** Axios
 
 ---
 
@@ -60,10 +61,10 @@ Follow these steps to set up the project locally:
 
 ### **Prerequisites**
 1. [Node.js](https://nodejs.org/) installed.
-2. [MongoDB](https://www.mongodb.com/) (if using MongoDB).
+2. [MongoDB](https://www.mongodb.com/)
 
 ### **Steps**
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-username/admin-dashboard.git
+   git clone https://github.com/GMAN-897/dashboard.git
    cd admin-dashboard
