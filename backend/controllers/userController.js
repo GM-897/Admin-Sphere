@@ -2,6 +2,8 @@ const User = require("../models/User");
 
 const getUsers = async (req, res) => {
   try {
+    console.log("workign")
+    
     const users = await User.find();
     res.json(users);
   } catch (error) {
@@ -11,8 +13,8 @@ const getUsers = async (req, res) => {
 
 const createUser = async (req, res) => {
   try {
-    const { name, role, designation, status } = req.body;
-    const newUser = new User({ name, role, designation, status });
+    const {name, email,role, status} = req.body;
+    const newUser = new User({ name, email,role, status });
     await newUser.save();
     res.status(201).json({ message: "User created successfully", user: newUser });
   } catch (error) {
@@ -22,10 +24,10 @@ const createUser = async (req, res) => {
 
 const updateUser = async (req, res) => {
   try {
-    const { name, role, designation, status } = req.body;
+    const {name, email,role, status} = req.body;
     const updatedUser = await User.findByIdAndUpdate(
       req.params.id,
-      { name, role, designation, status },
+      {name, email,role, status},
       { new: true }
     );
     res.json({ message: "User updated successfully", user: updatedUser });
