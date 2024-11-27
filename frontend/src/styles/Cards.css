@@ -1,0 +1,23 @@
+.dashboard-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .dashboard-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pink { background-color: #ff6394; }
+  .green { background-color: #7ed321; }
+  .blue { background-color: #4a90e2; }
+  .yellow { background-color: #f5a623; }
+  
