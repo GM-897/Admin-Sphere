@@ -2,7 +2,7 @@ const User = require("../models/User");
 
 const getUsers = async (req, res) => {
   try {
-    console.log("workign")
+    console.log("working..user saved")
     
     const users = await User.find();
     res.json(users);
@@ -13,8 +13,8 @@ const getUsers = async (req, res) => {
 
 const createUser = async (req, res) => {
   try {
-    const {name, email,role, status} = req.body;
-    const newUser = new User({ name, email,role, status });
+    const {name, email,password,role, status} = req.body;
+    const newUser = new User({ name, email,password,role, status });
     await newUser.save();
     res.status(201).json({ message: "User created successfully", user: newUser });
   } catch (error) {
@@ -61,3 +61,5 @@ module.exports = {
   deleteUser,
   getUserById,
 };
+
+//Made By Manmohit
