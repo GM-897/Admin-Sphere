@@ -3,8 +3,6 @@
 This project is an **Admin Dashboard** designed to provide a secure and user-friendly interface for administrators to manage users, roles, and permissions effectively. The system ensures robust role-based access control while maintaining flexibility and ease of use.
 
 <img width="1440" alt="home-page" src="https://github.com/user-attachments/assets/8b732bf9-05fd-4d2e-9263-22cf2350866f">
-<img width="1440" alt="user management" src="https://github.com/user-attachments/assets/d8f6faf4-408f-4801-bf55-4c870d8f0cb4">
-<img width="1440" alt="role management" src="https://github.com/user-attachments/assets/7977b183-e273-4a8d-b54c-a52416d853c8">
 
 
 ---
@@ -49,11 +47,13 @@ The Admin Dashboard offers comprehensive user, role, and permission management c
 - Add, edit, and delete users.
 - Assign roles to users.
 - Manage user statuses (e.g., Active/Inactive).
+<img width="1440" alt="user management" src="https://github.com/user-attachments/assets/d8f6faf4-408f-4801-bf55-4c870d8f0cb4">
 
 ### 2. **Role Management**
 - Create new roles.
 - Edit existing roles.
 - Assign permissions (e.g., Read, Write, Delete) to roles.
+<img width="1440" alt="role management" src="https://github.com/user-attachments/assets/7977b183-e273-4a8d-b54c-a52416d853c8">
 
 ### 3. **Dynamic Permissions**
 - Assign or modify permissions dynamically.
